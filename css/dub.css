@@ -1,0 +1,130 @@
+html {
+    margin-top: 0px;
+}
+
+/* ページトップに戻るボタン */
+#pageTop {
+  position: fixed;
+  bottom: 5px;
+  right: 15px;
+}
+#pageTop i {
+  padding-top: 1px
+}
+#pageTop a {
+  display: block;
+  z-index: 999;
+  padding: 5px 0 0 0;
+  width: 35px;
+  height: 35px;
+  background-color: gray;
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+  text-align: center;
+}
+#pageTop a:hover {
+  text-decoration: none;
+  opacity: 0.7;
+}
+
+
+.cover {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background: url('/theme/top_and_news/img/obi.jpg');
+  background-blend-mode: overlay;
+  background-color: #ccc;
+  color: #2C1B0D;
+}
+
+.h2_dub {
+  border-bottom: 1px solid #2C1B0D;
+  padding-bottom: 0.5rem;
+  margin-top: 3.0rem;
+  color: #2C1B0D;
+}
+.a-dub {
+  color: inherit;
+}
+.a-dub:hover {
+  color: gray;
+}
+
+.nowrap {
+  white-space: nowrap;
+}
+
+/* Font Awesome hatena bookmark */
+.fa-hatena:before {
+    content: "B!";
+    font-family: Verdana;
+    font-weight: bold
+}
+
+/*SNS Button*/
+.facebook-dub {
+  color: gray;
+}
+.facebook-dub:hover {
+  color: #3B5999;
+}
+
+.twitter-dub {
+  color: gray;
+}
+.twitter-dub:hover {
+  color: #1B95E0;
+}
+
+.hatena-dub {
+  color: gray;
+}
+.hatena-dub:hover {
+  color: #008FDE
+}
+
+.pocket-dub {
+  color: gray;
+}
+.pocket-dub:hover {
+  color: #EE4056;
+}
+
+.line-dub {
+  color: gray;
+}
+.line-dub:hover {
+  color: #00C300;
+}
+
+.dd-dub a{
+  color: inherit;
+}
+.dd-dub a:hover {
+  color: gray;
+}
+
+.message {
+  position: relative;
+  padding: .75rem 1.25rem;
+  margin-bottom: 1rem;
+  border: 1px solid transparent;
+  border-radius: .25rem;
+}
+
+.alert-message {
+  color: #721c24;
+  background-color: #f8d7da;
+  border-color: #f5c6cb;
+}
+
+.error-message {
+  color: pink;
+}
+
+.form-group > label {
+  font-size: 0.8rem;
+  color:gray;
+}
